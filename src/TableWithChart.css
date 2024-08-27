@@ -1,0 +1,40 @@
+div{
+  width: 1000px;
+}
+.styled-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    padding: 12px;
+    text-align: left;
+    background-color: #f4f4f4;
+    margin: 10px;
+  }
+  
+ /* .styled-table thead {
+    background-color: #f4f4f4;
+  }
+  .styled-table tbody {
+    background-color: #f4f4f4;
+  }*/
+  .data-row {
+    cursor: pointer;
+  }
+  
+  .current-day {
+    background-color: #d0e7ff; /* Голубой цвет для колонки "Текущий день" */
+  }
+  
+  .percentage-change {
+    display: block;
+    font-size: 0.8em;
+  }
+  
+  .chart-container {
+    padding: 10px;
+  }
